@@ -1,0 +1,9 @@
+And finally, in order to provision the infrastructure, last steps are required.
+
+Execute terraform commands in the following order:
+
+terraform init
+
+terraform plan
+
+terraform apply
