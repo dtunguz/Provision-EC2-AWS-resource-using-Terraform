@@ -6,7 +6,7 @@ Prerequisite is having already set up AWS account.
 
 Repo consists of following documents/scripts:
 
-- terraform installation on the local PC (in this case MacOS is used) (installterraform.sh)
+- terraform installation on the local PC (in this case MacOS is used) (terraform_installation_guideline)
 - fetching AWS credentials in order to authenticate to the account
 - installing AWS CLI (awscli)
 - writing simple Terraform configuration (configuration/main.tf)
