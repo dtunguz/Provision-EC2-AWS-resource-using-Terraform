@@ -1,0 +1,10 @@
+In order for terraform to provision your resource in AWS based on the main.tf file provided, key-pair is needed.
+
+Here is more explanation why:
+
+In Terraform, the key_name attribute is typically used when you're provisioning virtual machines (e.g., using AWS EC2) that need SSH access. It's used to specify the name of the SSH key pair that will be associated with the virtual machine so you can securely connect to it via SSH once it's running.
+
+You may install it using the following link: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html
+
+Please note that the key_name attribute is optional in Terraform: https://registry.terraform.io/providers/hashicorp/aws/2.36.0/docs/resources/instance.
+So it is up to you whether you will use it or not.
