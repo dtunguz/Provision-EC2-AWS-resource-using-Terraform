@@ -1,1 +1,15 @@
+Once you saved your keys as a .csv file, install aws cli (if not installed) following the next link: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
+You can check whether your installation is done properly with the following commands:
+
+which aws
+aws --version
+
+Once you made sure that aws cli is installed on your local machine, execute following commands:
+
+aws configure
+export AWS_ACCESS_KEY_ID="YOUR_ACCESS_KEY"
+export AWS_SECRET_ACCESS_KEY="YOUR_SECRET_KEY"
+export AWS_DEFAULT_REGION="YOUR_REGION"
+
+After executing these commands, you are all set to start provisioning resources on AWS using Terraform on your local machine. 
