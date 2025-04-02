@@ -1,0 +1,9 @@
+To install terraform, navigate to the following link: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli.
+When using binary package option, execute following commands (Mac or Linux):
+
+echo $PATH
+mv ~/Downloads/terraform /usr/local/bin/
+
+Verify the installation:
+
+terraform -help
