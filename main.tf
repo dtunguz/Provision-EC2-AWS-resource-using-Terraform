@@ -14,7 +14,7 @@ provider "aws" {
 
 # Create an EC2 Instance
 resource "aws_instance" "example" {
-  ami                    = "ami-0ecf75a98fe8519d7"  # Replace with your desired AMI
+  ami                    = "ami-03250b0e01c28d196"  # Replace with your desired AMI
   instance_type          = "t2.micro"  # Or your desired instance type
   key_name               = "test"  # Replace with your key pair name
   security_groups        = [aws_security_group.example.name]
